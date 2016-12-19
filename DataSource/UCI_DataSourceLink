@@ -3,9 +3,14 @@ Pleae refer to the corresponding webpage for a complete discription of data.
 
 http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits
 This is a data set of online handwriting digits, taken from 44 writers with 250 samples each. The training and test set have been divided, with the training set almost twice as large as the test one.
+The files are unzipped and changed to .txt
+Training set: pendigits-orig-tra.txt
+Testing set: pendigits-orig-tes.txt
 
 http://archive.ics.uci.edu/ml/datasets/UJI+Pen+Characters
 This is the first version of data of online handwriting characters and digits, containing upper and lower case English characters and digits from 11 writers, with each symbol occurring twice per writer. One file corresponds to one writer. Note that the y-axis is upside down, i.e. the coordinate decreases as the stylus moves up on the panel.
+The files are unzipped and changed to .txt
+Writer i: 'UJIpenchars-w' & i & '.txt', where i is from 01 to 11 (in 2-digit).
 
 There is also a second version not used in the study and not included here.
 http://archive.ics.uci.edu/ml/datasets/UJI+Pen+Characters+(Version+2)
