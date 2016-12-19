@@ -12,6 +12,7 @@ The folder DataSource contains the unzipped raw data used in the study taken fro
 
 All codes are tested in MATLAB R2016a. Statistical and Machine Learningn Toolbox (along with its dependencies) are required. With the exception of writedigit.m, which uses "animated line" object, all codes are orignally written and tested in MATLAB R2009a. Some data types e.g. "dataset" and functions e.g. "classify" may be obsolete and possibly removed from future MATLAB releases, though (better) substitute is available. Please refer to MATLAB support for details.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 readpen.m
 input: file name
@@ -26,6 +27,32 @@ concatenated two-column dataset imported from eleven 'UJIpenchars-w' & i & '.txt
 fix the upside-down problem in the raw data.
 contains upper and lower case Roman characters in addition to digits.
 
+
 digit_tra.mat
+two-column dataset imported from 'pendigits-orig-tra.txt'. the training set
+
 
 digit_tes.mat
+two-column dataset imported from 'pendigits-orig-tes.txt'. the test set
+
+
+npath.m
+
+
+sig.m
+
+
+recog.m
+
+
+FS_2d.mat
+
+
+FS_2d.fig
+
+
+demo.m
+
+
+test.m, work.m
+used to test codes (more like a personal memo or clipboard), not meaningful, and guaranteed with glitches if not properly run. provided as examples of applying the functions and performing analyses (along with an opportunity to mock the author).
