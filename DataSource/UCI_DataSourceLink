@@ -8,7 +8,7 @@ Training set: pendigits-orig-tra.txt
 Testing set: pendigits-orig-tes.txt
 
 http://archive.ics.uci.edu/ml/datasets/UJI+Pen+Characters
-This is the first version of data of online handwriting characters and digits, containing upper and lower case English characters and digits from 11 writers, with each symbol occurring twice per writer. One file corresponds to one writer. Note that the y-axis is upside down, i.e. the coordinate decreases as the stylus moves up on the panel.
+This is the first version of data of online handwriting characters and digits, containing upper and lower case Roman characters and digits from 11 writers, with each symbol occurring twice per writer. One file corresponds to one writer. Note that the y-axis is upside down, i.e. the coordinate decreases as the stylus moves up on the panel.
 The files are unzipped and changed to .txt
 Writer i: 'UJIpenchars-w' & i & '.txt', where i is from 01 to 11 (in 2-digit).
 
