@@ -16,7 +16,7 @@ The folder DataSource contains the unzipped raw data used in the study taken fro
 
 All codes are tested in MATLAB R2016a. Statistical and Machine Learningn Toolbox (along with its dependencies) are required. With the exception of writedigit.m, which uses "animated line" object, all codes are orignally written and tested in MATLAB R2009a. Some data types e.g. "dataset" and functions e.g. "classify" may be obsolete and possibly removed from future MATLAB releases, though (better) substitute is available. Please refer to MATLAB support for details.  
 
-Please contact the author if you experience diffulties in using the following MATLAB codes and data (or simply don't want to go through the lines).  
+Please contact the author if you experience bugs or diffulties in using the following MATLAB codes and data (or simply don't want to go through the lines).  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%  
 
