@@ -67,13 +67,18 @@ two-column dataset imported from 'pendigits-orig-tes.txt'. the test set.
 
 
 npath.m  
-input:  
-output:  
+input: (d-1)-dim path, the d-th dimension indicates jumps, normalized length  
+output: normalized (d-1)-dim path, the d-th dimension indicates jumps  
+normalizes the continuous part of a (d-1)-dim path to a fixed length, with the d-th dimension indicating jumps preserved.  
+the most intuitive and basic preprocessing of online handwriting data and other data analyses in which the lengths should be ignored.  
 
 
 sig.m  
-input:  
-output:  
+input: path, tensor power  
+output: signature of path truncated at the tensor power  
+inductively (on degrees) compute the truncated signature, keeping the trivial zeroth term 1.  
+exploits vectorization power of MATLAB, but it could be memory intensive for HIGH dimensional array.  
+in case of memory outflow, try divide-and-conquer by breaking long paths into short ones, or modify the function to store temporary large arrays in file (hard drive) using MATLAB built-in file IOs.  
 
 
 recog.m  
@@ -86,11 +91,13 @@ FS_2d.fig
 
 
 writedigit.m  
-input:  
-output:  
-
+input: ordered pixels of handwriting, third dimension indicates jumps, optional input for time between adjacent sample points  
+output: movie struct  
+writes the handwriting data in animation, points at which the pen puts down/up are respectively labelled with green/red downward/upward pointing triangles.  
+outputs a movie struct for playback with "movie" function.  
+could be used with "movie2gif" (free online available for download from MATLAB central) to create .gif (or write your own conversion with built-in "imwrite").  
+uses "animated line" object unavailable in R2009a or older version.  
 
 demo.m  
-
-
-can be viewed as examples of applying the functions and performing analyses
+line-by-line code for project presentation, including signature computation, data visualization, and naive classification  
+can be viewed as examples of applying the functions and performing analyses.  
