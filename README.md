@@ -93,5 +93,4 @@ output:
 demo.m  
 
 
-test.m, work.m  
-used to test codes (more like a personal memo or clipboard), not meaningful, and guaranteed with glitches if not properly run. provided as examples of applying the functions and performing analyses (along with an opportunity to mock the author's coding habits).
+can be viewed as examples of applying the functions and performing analyses
