@@ -54,40 +54,49 @@ implementation was suboptimal especially for large files as I was obssessed in a
 
 char_ds.mat  
 concatenated two-column dataset imported from eleven 'UJIpenchars-w' & i & '.txt', i=1:11, writer name excluded.  
+first column .char, second column .path  
 fix the upside-down problem in the raw data.  
 contains upper and lower case Roman characters in addition to digits.  
 
 
 digit_tra.mat  
 two-column dataset imported from 'pendigits-orig-tra.txt'. the training set.  
+first column .char, second column .path  
 
 
 digit_tes.mat  
 two-column dataset imported from 'pendigits-orig-tes.txt'. the test set.  
+first column .char, second column .path  
 
 
 npath.m  
 input: (d-1)-dim path, the d-th dimension indicates jumps, normalized length  
 output: normalized (d-1)-dim path, the d-th dimension indicates jumps  
-normalizes the continuous part of a (d-1)-dim path to a fixed length, with the d-th dimension indicating jumps preserved.  
+general function normalizes the continuous part of a (d-1)-dim path to a fixed length, with the d-th dimension indicating jumps preserved.  
 the most intuitive and basic preprocessing of online handwriting data and other data analyses in which the lengths should be ignored.  
 
 
 sig.m  
 input: path, tensor power  
 output: signature of path truncated at the tensor power  
-inductively (on degrees) compute the truncated signature, keeping the trivial zeroth term 1.  
+general function inductively (on degrees) computes the truncated signature, keeping the trivial zeroth term 1.  
 exploits vectorization power of MATLAB, but it could be memory intensive for HIGH dimensional array.  
 in case of memory outflow, try divide-and-conquer by breaking long paths into short ones, or modify the function to store temporary large arrays in file (hard drive) using MATLAB built-in file IOs.  
 
 
 recog.m  
+code snippet directly adapted from MATLAB R2009a help file "Selecting Features for Classifying High-dimensional Data". (R2016a help file is different due to substitution of obsolete functions in R2009a, but it is backward compatible.)  
+good to know which tensor is leading in predictive/discriminative power, but of minimal value since tensors are computed inductively and we need lower order tensors to compute higher order ones.  
+instead of optimizing via feature selection, one should consider optimization by preprocessing and/or postprocessing (pre and post are relative to the computation of signatures).  
 
 
 FS_2d.mat  
+saved workspace of output variables of "recog.m", with original dataset and signature matrix deleted as they are huge and can be loaded or computed immediately. (signature matrix of digit_tra.mat is 110MB!)  
+please refer to "recog.m" for documentation of variables and usage.  
 
 
 FS_2d.fig  
+output plot of "recog.m" showing the decays of errors in sequential feature selections, with red for resubstition dataset (flawed method) and blue for 10-fold holdout dataset (correct method)  
 
 
 writedigit.m  
