@@ -7,8 +7,15 @@ Terms and conditions: For MATH820 F16 Sharing ONLY
 
 As a proof of concepts, the goal of the project is to recognize online handwriting digits using signature as extracted features and linear functionals as classifiers. The idea is to apply analysis techniques (linear functionals) in a good space (algebra of formal tensor series) with bad objects (signatures) rather than in a bad space (monoid of path space) with good objects(paths, or 1-currents), (Antoine's comment), in contrast to machine learning approach where objects are simple but algorithms are convoluted.  
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+
 
 This folder contains the final report and the MATLAB implementation of the course project of MATH820 in Fall 2016 at CMU.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+
+TODO  
+to do list, as the name suggested  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%  
 
