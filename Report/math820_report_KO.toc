@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Tensor Algebra, the Signature of a Path, and Linearity}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Tensor Algebra, Definition and Motivation of Signatures}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Tree-like Paths, Signature as Group Homomorphism and Faithful Representation}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Shuffle Product Formula: Polynomial is Linear}{7}{subsection.1.3}
+\contentsline {section}{\numberline {2}Application of Signature to Online Handwriting Recognition}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}Handwriting Recognition: Online VS Offline}{10}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Signature as Extracted Features: Apriori Analysis}{11}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Experiment: Recognizing Digits using Signature and Linear Functionals}{12}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Data Source and Description}{12}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Program Design and Work Flow}{12}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Results}{14}{subsubsection.2.3.3}
+\contentsline {section}{\numberline {3}Summary}{17}{section.3}
+\contentsline {section}{Appendix \numberline {A}Signature and Taylor Series in Tensor Algebra}{17}{Appendix.1.A}
+\contentsline {section}{Appendix \numberline {B}MATLAB Implementation of Signature Computation}{18}{Appendix.1.B}
+\contentsline {section}{Acknowledgments}{19}{section*.2}
+\contentsline {section}{Bibliographic Notes}{19}{section*.4}
+\contentsline {section}{References}{20}{section*.6}

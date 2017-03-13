@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: math820_report_KO.aux
+The style file: plainnat.bst
+Database file #1: References.bib
+Warning--empty year in mlatex
+Warning--empty year in mnist
+You've used 13 entries,
+            2773 wiz_defined-function locations,
+            676 strings with 7218 characters,
+and the built_in function-call counts, 4800 in all, are:
+= -- 429
+> -- 230
+< -- 10
++ -- 83
+- -- 69
+* -- 332
+:= -- 768
+add.period$ -- 50
+call.type$ -- 13
+change.case$ -- 59
+chr.to.int$ -- 12
+cite$ -- 28
+duplicate$ -- 245
+empty$ -- 419
+format.name$ -- 84
+if$ -- 1004
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 11
+newline$ -- 82
+num.names$ -- 52
+pop$ -- 136
+preamble$ -- 1
+purify$ -- 49
+quote$ -- 0
+skip$ -- 186
+stack$ -- 0
+substring$ -- 58
+swap$ -- 27
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 128
+warning$ -- 2
+while$ -- 42
+width$ -- 0
+write$ -- 187
+(There were 2 warnings)

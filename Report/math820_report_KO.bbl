@@ -1,0 +1,93 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Geng(2016)]{Geng2016CCF}
+Xi~Geng.
+\newblock The exponential transform of a path: a faithful representation.
+\newblock Center for Computational Finance (CCF) Seminar, 10 2016.
+\newblock URL \url{http://math.cmu.edu/CCF/ccfseminar.php?SeminarSelect=1331}.
+
+\bibitem[{Gergely Gyurk{\'o}} et~al.(2013){Gergely Gyurk{\'o}}, {Lyons},
+  {Kontkowski}, and {Field}]{SigFin}
+L.~{Gergely Gyurk{\'o}}, T.~{Lyons}, M.~{Kontkowski}, and J.~{Field}.
+\newblock {Extracting information from the signature of a financial data
+  stream}.
+\newblock \emph{ArXiv e-prints}, July 2013.
+
+\bibitem[Graham(2013)]{Graham2013}
+Benjamin Graham.
+\newblock Sparse arrays of signatures for online character recognition.
+\newblock \emph{CoRR}, abs/1308.0371, 2013.
+\newblock URL \url{http://arxiv.org/abs/1308.0371}.
+
+\bibitem[{Hambly} and {Lyons}(2005)]{Hambly2005}
+B.~{Hambly} and T.~{Lyons}.
+\newblock {Uniqueness for the signature of a path of bounded variation and the
+  reduced path group}.
+\newblock \emph{ArXiv Mathematics e-prints}, July 2005.
+
+\bibitem[Knorn()]{mlatex}
+Florian Knorn.
+\newblock {M-code LaTeX Package}.
+\newblock URL
+  \url{http://www.mathworks.com/matlabcentral/fileexchange/8015-m-code-latex-package}.
+
+\bibitem[{LeCun} et~al.(){LeCun}, {Cortes}, and {Burges}]{mnist}
+Yann {LeCun}, Corinna {Cortes}, and Christopher~J.C. {Burges}.
+\newblock The {MNIST} database of handwritten digits.
+\newblock URL \url{http://yann.lecun.com/exdb/mnist/index.html}.
+
+\bibitem[Lichman(2013{\natexlab{a}})]{UJIchar}
+M.~Lichman.
+\newblock {UCI} machine learning repository {UJI} pen characters data set,
+  2013{\natexlab{a}}.
+\newblock URL \url{http://archive.ics.uci.edu/ml/datasets/UJI+Pen+Characters}.
+
+\bibitem[Lichman(2013{\natexlab{b}})]{UJIdigit}
+M.~Lichman.
+\newblock {UCI} machine learning repository pen-based recognition of
+  handwritten digits data set, 2013{\natexlab{b}}.
+\newblock URL
+  \url{http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits}.
+
+\bibitem[{Lyons}(2014)]{lyons2014ICM}
+T.~{Lyons}.
+\newblock {Rough paths, Signatures and the modelling of functions on streams}.
+\newblock \emph{ArXiv e-prints}, May 2014.
+
+\bibitem[Lyons et~al.(2014)Lyons, Ni, and Oberhauser]{lyons2014HFT}
+Terry Lyons, Hao Ni, and Harald Oberhauser.
+\newblock A feature set for streams and an application to high-frequency
+  financial tick data.
+\newblock In \emph{Proceedings of the 2014 International Conference on Big Data
+  Science and Computing}, BigDataScience '14, pages 5:1--5:8, New York, NY,
+  USA, 2014. ACM.
+\newblock ISBN 978-1-4503-2891-3.
+\newblock \doi{10.1145/2640087.2644157}.
+\newblock URL \url{http://doi.acm.org/10.1145/2640087.2644157}.
+
+\bibitem[Lyons et~al.(2007)Lyons, Caruana, and L{\'e}vy]{lyons2007differential}
+T.J. Lyons, M.J. Caruana, and T.~L{\'e}vy.
+\newblock \emph{Differential Equations Driven by Rough Paths: Ecole d’Et{\'e}
+  de Probabilit{\'e}s de Saint-Flour XXXIV-2004}.
+\newblock Lecture Notes in Mathematics. Springer Berlin Heidelberg, 2007.
+\newblock ISBN 9783540712855.
+\newblock URL \url{https://books.google.com/books?id=hOm5BQAAQBAJ}.
+
+\bibitem[MATLAB(2009)]{MATLAB:2009}
+MATLAB.
+\newblock \emph{R2009a}.
+\newblock The MathWorks Inc., Natick, Massachusetts, 2009.
+\newblock URL \url{http://www.mathworks.com/help/matlab/}.
+
+\bibitem[MATLAB(2016)]{MATLAB:2016}
+MATLAB.
+\newblock \emph{R2016a}.
+\newblock The MathWorks Inc., Natick, Massachusetts, 2016.
+\newblock URL \url{http://www.mathworks.com/help/matlab/}.
+
+\end{thebibliography}
