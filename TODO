@@ -1,6 +1,3 @@
-Report  
-finish it!  
-
 Preprocessing  
 zooming out with less sampled pixels, multiscale (as in Yuanyuan Feng)  
 randomly perturbing the entire path with rigid motions or pixels-by-pixels, regularization (as in Sam Cohn)  
